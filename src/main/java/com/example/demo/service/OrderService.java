@@ -69,5 +69,15 @@ public class OrderService {
 
         return response;
     }
+    public Map<String, Object> createOrderFromCart(User user) {
+
+        // TEMPORARY SIMPLE IMPLEMENTATION
+        Map<String, Object> response = new HashMap<>();
+        response.put("message", "Order created successfully");
+        response.put("username", user.getUsername());
+
+        return response;
+    }
+
 }
 

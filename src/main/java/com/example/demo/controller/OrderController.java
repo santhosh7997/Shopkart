@@ -48,4 +48,27 @@ public class OrderController {
             return ResponseEntity.status(500).body(Map.of("error", "An unexpected error occurred"));
         }
     }
+    @PostMapping("/create-from-cart")
+    public ResponseEntity<?> createOrderFromCart(HttpServletRequest request) {
+        try {
+            User authenticatedUser = (User) request.getAttribute("authenticatedUser");
+
+            if (authenticatedUser == null) {
+                return ResponseEntity.status(401)
+                        .body(Map.of("error", "User not authenticated"));
+            }
+
+            Map<String, Object> response =
+                    orderService.createOrderFromCart(authenticatedUser);
+
+            return ResponseEntity.ok(response);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResponseEntity.status(500)
+                    .body(Map.of("error", "Failed to create order"));
+        }
+    }
+
+
 }

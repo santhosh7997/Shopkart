@@ -24,6 +24,12 @@ public class Product {
     @Column(nullable = false)
     private Integer stock;
 
+    
+    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private java.util.List<ProductImage> images;
+
+    
+    
     @ManyToOne
     @JoinColumn(name = "category_id")
     private Category category;
@@ -98,6 +104,15 @@ public class Product {
     public void setUpdatedAt(LocalDateTime updatedAt) {
         this.updatedAt = updatedAt;
     }
+    
+    public java.util.List<ProductImage> getImages() {
+        return images;
+    }
+
+    public void setImages(java.util.List<ProductImage> images) {
+        this.images = images;
+    }
+
     
     public Product() {
 		// TODO Auto-generated constructor stub

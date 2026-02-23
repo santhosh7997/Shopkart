@@ -18,9 +18,17 @@ import com.example.demo.service.AuthService;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5174", allowCredentials = "true")
+//@CrossOrigin(origins = "http://localhost:5174", allowCredentials = "true")
+@CrossOrigin(
+	    origins = "http://localhost:5174",
+	    allowCredentials = "true",
+	    allowedHeaders = "*",
+	    methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE}
+	)
+
 @RequestMapping("/api/auth")
 
 public class AuthController {
@@ -38,15 +46,15 @@ public class AuthController {
 
             Cookie cookie = new Cookie("authToken", token);
             cookie.setHttpOnly(true);
-            cookie.setSecure(false); // Set to true if using HTTPS
+            cookie.setSecure(false);
             cookie.setPath("/");
-            cookie.setMaxAge(3600); // 1 hour
-            cookie.setDomain("localhost");
+            cookie.setMaxAge(3600);
             response.addCookie(cookie);
+
            // Optional but useful
             
-            response.addHeader("Set-Cookie",
-                    String.format("authToken=%s; HttpOnly; Path=/; Max-Age=3600; SameSite=None", token));
+           // response.addHeader("Set-Cookie",
+           //         String.format("authToken=%s; HttpOnly; Path=/; Max-Age=3600; SameSite=None", token));
 
             
             Map<String, Object> responseBody = new HashMap<>();
