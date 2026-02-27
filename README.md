@@ -5,7 +5,7 @@ It demonstrates real-world concepts such as REST APIs, authentication, role-base
 
 This project is created to showcase backend development skills for job and internship opportunities.
 
-🚀Tech Stack
+Tech Stack -->
 
 Java
 
@@ -25,7 +25,7 @@ REST APIs
 
 Git & GitHub
 
-✨ Features
+Features -->
 
 User Registration & Login
 
@@ -43,7 +43,7 @@ Exception handling & validations
 
 Database persistence using JPA/Hibernate
 
-🧱 Project Structure
+Project Structure -->
 Shopkart
  ├── src/main/java
  │    ├── controller
@@ -56,7 +56,7 @@ Shopkart
  │    └── static / templates
  ├── pom.xml
  └── README.md
-⚙️ How to Run the Project
+How to Run the Project :
 Prerequisites
 
 Java 8 or above
@@ -85,14 +85,14 @@ Run As → Spring Boot App
 
 Application runs on:
 
-http://localhost:8080
-🧪 API Testing
+http://localhost:9090
+API Testing -->
 
 APIs can be tested using Postman
 
 Follows REST conventions (GET, POST, PUT, DELETE)
 
-📌 Purpose of This Project
+Purpose of This Project -->
 
 Practice real-world Spring Boot development
 
@@ -102,10 +102,10 @@ Demonstrate backend skills to recruiters
 
 Improve Git & GitHub workflow knowledge
 
-👨‍💻 Author
+Author --
 
 Santhosh Kanne
-Aspiring Java / Spring Boot Developer
+Aspiring Software Developer / Spring Boot Developer
 GitHub: https://github.com/santhosh7997
 
 ⭐ If you like this project
