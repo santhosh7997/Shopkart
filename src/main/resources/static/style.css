@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background:#0f172a;   /* Dark theme like homepage */
+    color:white;
+}
+
+/* Header */
+header{
+    background:#0f172a;
+    color:#ff6a00;   /* Orange */
+    padding:20px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* Center container */
+.container{
+    width:350px;
+    margin:100px auto;
+    background:#1e293b;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.6);
+    text-align:center;
+}
+
+/* Input fields */
+.container input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+}
+
+/* Buttons */
+button{
+    width:100%;
+    padding:10px;
+    background:#ff6a00;  /* Orange */
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#e65c00;
+}
+
+/* Links */
+a{
+    color:#ff6a00;
+    text-decoration:none;
+}

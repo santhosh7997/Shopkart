@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+
+<header><h2>Checkout</h2></header>
+
+<div class="container">
+    <button onclick="payNow()">Pay with Razorpay</button>
+</div>
+
+<script>
+	function payNow() {
+
+	    var options = {
+	        key: "rzp_test_S9a2ZJ6izobp38",
+	        amount: 10000, // ₹100
+	        currency: "INR",
+	        name: "SalesSavvy",
+	        description: "Test Payment",
+	        image: "https://cdn-icons-png.flaticon.com/512/891/891419.png",
+	        handler: function (response) {
+	            alert("Payment Successful\nPayment ID: " + response.razorpay_payment_id);
+	        },
+	        prefill: {
+	            name: "Test User",
+	            email: "test@example.com",
+	            contact: "9999999999"
+	        },
+	        theme: {
+	            color: "#3399cc"
+	        }
+	    };
+
+	    var rzp = new Razorpay(options);
+	    rzp.open();
+	}
+
+</script>
+
+</body>
+</html>
