@@ -1,5 +1,4 @@
 Santhosh Kanne | Associate Software Engineer
-
 Full Stack Developer | Java & Spring Boot Specialist | AI Enthusiast 
 
 🚀 Professional Summary
