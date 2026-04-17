@@ -30,8 +30,11 @@ Feature Engineering: Engineered a multivariate dataset using 10+ technical indic
 
 💻 Technical Skills
 Languages: Java (Core & Advanced), Python, SQL (MySQL).
+
 Backend: Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Microservices. 
+
 Frontend: React.js, JavaScript (ES6+), HTML5, CSS3.
+
 Databases: MySQL (Relational), MongoDB (NoSQL).
 Cloud & DevOps: Git, GitHub, Maven, Postman, NPTEL Cloud Computing.
 
