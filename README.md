@@ -20,6 +20,7 @@ Agile Collaboration: Actively participated in Scrum sprints, utilizing Git/GitHu
 🛠️ Technical Projects
 
 1. Shopkart – Modular E-Commerce Platform
+
 Tech: Java, Spring Boot, MySQL, MongoDB, Spring Security, JWT, Razorpay
 Microservices Architecture: Architected 6 independently deployable microservices (Auth, Product, Cart, Order, Payment, User) to ensure system resilience and horizontal scalability.
 Security: Implemented JWT-based stateless authentication and Role-Based Access Control (RBAC) to secure sensitive customer data.
@@ -27,6 +28,7 @@ Polyglot Persistence: Utilized MySQL for transactional integrity (Orders) and Mo
 Payment Integration: Integrated Razorpay API with webhook-based order confirmation for seamless transaction handling.
 
 2. Stock Price Forecasting (Machine Learning Ensemble)
+
 Tech: Python, TensorFlow/Keras, LSTM, ARIMA, Linear Regression
 Hybrid Modeling: Developed an ensemble model combining Deep LSTM, ARIMA, and Linear Regression to analyze 5+ years of market data.
 Optimization: Achieved 85% directional accuracy, outperforming standalone baselines by 12% through hyperparameter tuning and Adam optimization.
