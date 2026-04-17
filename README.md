@@ -57,7 +57,9 @@ Cyber Security: 240-Hour Internship Completion – SkillDzire (2024).
 
 🎓 Education
 
-B.Tech in Computer Science and EngineeringAnnamacharya Institute of Technology & Sciences (2025)
+B.Tech in Computer Science and Engineering
+
+Annamacharya Institute of Technology & Sciences (2025)
 
 CGPA: 7.04/10
 
