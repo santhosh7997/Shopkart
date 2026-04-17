@@ -2,7 +2,7 @@ Santhosh Kanne | Associate Software Engineer
 Full Stack Developer | Java & Spring Boot Specialist | ML Enthusiast 
 
 🚀 Professional Summary
-Associate Software Engineer with 8 months of hands-on internship experience in Java backend development, specializing in Spring Boot and Microservices. Proven expertise in designing 20+ RESTful APIs, implementing JWT-based security, and building scalable NoSQL/SQL database architectures. NPTEL-certified in Cloud Computing with a strong foundation in Data Structures, Algorithms (LeetCode), and Advanced LSTM-Driven Time-Series Modeling.
+Associate Software Engineer with 8 months of hands-on internship experience in Java backend development, specializing in Spring Boot and Microservices. Proven expertise in designing 20+ RESTful APIs, implementing JWT-based security, and building scalable NoSQL/SQL database architectures. NPTEL-certified in Cloud Computing with a strong foundation in Data Structures, Algorithms (LeetCode), and Advanced LSTM-Driven Time-Series Modeling. 
 
 💼 Professional Experience 
 KodNest Technologies | Software Development Intern (Java Full Stack)
