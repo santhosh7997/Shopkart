@@ -1,11 +1,15 @@
 Santhosh Kanne | Associate Software Engineer
-Full Stack Developer | Java & Spring Boot Specialist | ML Enthusiast 
+
+Full Stack Developer | Java & Spring Boot Specialist | AI Enthusiast 
 
 🚀 Professional Summary
+
 Associate Software Engineer with 8 months of hands-on internship experience in Java backend development, specializing in Spring Boot and Microservices. Proven expertise in designing 20+ RESTful APIs, implementing JWT-based security, and building scalable NoSQL/SQL database architectures. NPTEL-certified in Cloud Computing with a strong foundation in Data Structures, Algorithms (LeetCode), and Advanced LSTM-Driven Time-Series Modeling. 
 
 💼 Professional Experience 
+
 KodNest Technologies | Software Development Intern (Java Full Stack)
+
 June 2025 – February 2026 | Bengaluru, India
 
 Backend Engineering: Engineered scalable Java applications using Spring Boot and Spring Data JPA, optimizing query performance to improve data retrieval speeds by 12%.
@@ -14,6 +18,7 @@ Quality Assurance: Achieved 95%+ JUnit code coverage through rigorous unit testi
 Agile Collaboration: Actively participated in Scrum sprints, utilizing Git/GitHub for version control and Postman for automated API testing.
 
 🛠️ Technical Projects
+
 1. Shopkart – Modular E-Commerce Platform
 Tech: Java, Spring Boot, MySQL, MongoDB, Spring Security, JWT, Razorpay
 Microservices Architecture: Architected 6 independently deployable microservices (Auth, Product, Cart, Order, Payment, User) to ensure system resilience and horizontal scalability.
@@ -57,5 +62,7 @@ B.Tech in Computer Science and EngineeringAnnamacharya Institute of Technology &
 CGPA: 7.04/10
 
 📫 Contact Me
+
 Email: santhos799750h@gmail.com
+
 Phone: +91 7093679440
