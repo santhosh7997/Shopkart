@@ -2,12 +2,12 @@ Santhosh Kanne | Associate Software Engineer
 
 Full Stack Developer | Java & Spring Boot Specialist | AI Enthusiast 
 
-
+**
 🚀 Professional Summary
 
 Associate Software Engineer with 8 months of hands-on internship experience in Java backend development, specializing in Spring Boot and Microservices. Proven expertise in designing 20+ RESTful APIs, implementing JWT-based security, and building scalable NoSQL/SQL database architectures. NPTEL-certified in Cloud Computing with a strong foundation in Data Structures, Algorithms (LeetCode), and Advanced LSTM-Driven Time-Series Modeling. 
 
-
+**
 💼 Professional Experience 
 
 KodNest Technologies | Software Development Intern (Java Full Stack)
@@ -22,7 +22,7 @@ Quality Assurance: Achieved 95%+ JUnit code coverage through rigorous unit testi
 
 Agile Collaboration: Actively participated in Scrum sprints, utilizing Git/GitHub for version control and Postman for automated API testing.
 
-
+**
 🛠️ Technical Projects
 
 1. Shopkart – Modular E-Commerce Platform
@@ -48,7 +48,7 @@ Optimization: Achieved 85% directional accuracy, outperforming standalone baseli
 
 Feature Engineering: Engineered a multivariate dataset using 10+ technical indicators (RSI, Moving Averages) and normalized data via MinMaxScaler for model stability.
 
-
+**
 💻 Technical Skills
 
 Languages: Java (Core & Advanced), Python, SQL (MySQL).
@@ -61,7 +61,7 @@ Databases: MySQL (Relational), MongoDB (NoSQL).
 
 Cloud & DevOps: Git, GitHub, Maven, Postman, NPTEL Cloud Computing.
 
-
+**
 🧩 Problem Solving & Certifications
 
 LeetCode Proficiency: Data Structures & Algorithms (DSA) problems focusing on optimal time/space complexity in Java.
@@ -72,7 +72,7 @@ Internet of Things: NPTEL Elite Certification – IIT Kharagpur (2024).
 
 Cyber Security: 240-Hour Internship Completion – SkillDzire (2024).
 
-
+**
 🎓 Education
 
 B.Tech in Computer Science and Engineering
@@ -81,6 +81,7 @@ Annamacharya Institute of Technology & Sciences (2025)
 
 CGPA: 7.04/10
 
+**
 📫 Contact Me
 
 Email: santhos799750h@gmail.com
