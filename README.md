@@ -1,7 +1,7 @@
 Shopkart – Modular E-Commerce Platform
 Shopkart is a robust, microservices-based e-commerce application built using Spring Boot. It leverages a polyglot persistence strategy (MySQL and MongoDB) and integrates modern security and payment standards to provide a scalable and resilient shopping experience.
 
-🚀 Key Features
+🚀 Key Features 
 Microservices Architecture: 6 independently deployable services (Auth, Product, Cart, Order, Payment, and User).
 
 Security: Implemented JWT (JSON Web Token) for stateless authentication and Role-Based Access Control (RBAC).
