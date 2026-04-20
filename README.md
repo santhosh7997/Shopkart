@@ -1,89 +1,97 @@
-Santhosh Kanne | Associate Software Engineer
+Shopkart – Modular E-Commerce Platform
+Shopkart is a robust, microservices-based e-commerce application built using Spring Boot. It leverages a polyglot persistence strategy (MySQL and MongoDB) and integrates modern security and payment standards to provide a scalable and resilient shopping experience.
 
-Full Stack Developer | Java & Spring Boot Specialist | AI Enthusiast 
+🚀 Key Features
+Microservices Architecture: 6 independently deployable services (Auth, Product, Cart, Order, Payment, and User).
 
-**
-🚀 Professional Summary
+Security: Implemented JWT (JSON Web Token) for stateless authentication and Role-Based Access Control (RBAC).
 
-Associate Software Engineer with 8 months of hands-on internship experience in Java backend development, specializing in Spring Boot and Microservices. Proven expertise in designing 20+ RESTful APIs, implementing JWT-based security, and building scalable NoSQL/SQL database architectures. NPTEL-certified in Cloud Computing with a strong foundation in Data Structures, Algorithms (LeetCode), and Advanced LSTM-Driven Time-Series Modeling. 
+Polyglot Persistence: * MySQL: Ensures ACID compliance for transactional data like Orders and Payments.
 
-**
-💼 Professional Experience 
+MongoDB: Provides flexibility for the evolving schema of the Product Catalog.
 
-KodNest Technologies | Software Development Intern (Java Full Stack)
+Payment Integration: Seamless transaction handling via Razorpay API with webhook-based order confirmation.
 
-June 2025 – February 2026 | Bengaluru, India
+Performance: Optimized data retrieval with Spring Data JPA, achieving significant improvements in query performance.
 
-Backend Engineering: Engineered scalable Java applications using Spring Boot and Spring Data JPA, optimizing query performance to improve data retrieval speeds by 12%.
+🛠️ Tech Stack
+Backend
+Language: Java (JDK 17+)
 
-API Development: Architected 20+ RESTful API endpoints following MVC and Microservices patterns to support high-concurrency web functionality.
+Framework: Spring Boot, Spring Security, Spring Data JPA
 
-Quality Assurance: Achieved 95%+ JUnit code coverage through rigorous unit testing and structured exception handling.
+Architecture: Microservices, RESTful APIs, MVC Pattern
 
-Agile Collaboration: Actively participated in Scrum sprints, utilizing Git/GitHub for version control and Postman for automated API testing.
+Security: JWT, OAuth2
 
-**
-🛠️ Technical Projects
+Frontend
+Framework: React.js
 
-1. Shopkart – Modular E-Commerce Platform
+Styling: HTML5, CSS3, JavaScript (ES6+)
 
-Tech: Java, Spring Boot, MySQL, MongoDB, Spring Security, JWT, Razorpay
+Database & Tools
+Relational: MySQL
 
-Microservices Architecture: Architected 6 independently deployable microservices (Auth, Product, Cart, Order, Payment, User) to ensure system resilience and horizontal scalability.
+NoSQL: MongoDB
 
-Security: Implemented JWT-based stateless authentication and Role-Based Access Control (RBAC) to secure sensitive customer data.
+Tools: Maven, Postman (API Testing), Git/GitHub
 
-Polyglot Persistence: Utilized MySQL for transactional integrity (Orders) and MongoDB for flexible, unstructured data (Product Catalog).
+🏗️ Project Structure
+The project is organized into several modular services:
 
-Payment Integration: Integrated Razorpay API with webhook-based order confirmation for seamless transaction handling.
+Auth Service: Handles user registration, login, and JWT generation.
 
+Product Service: Manages the catalog using MongoDB for dynamic attributes.
 
-2. Stock Price Forecasting (Machine Learning Ensemble)
+Cart Service: Manages user shopping carts and persistent storage.
 
-Tech: Python, TensorFlow/Keras, LSTM, ARIMA, Linear Regression
+Order Service: Processes orders and maintains transaction history in MySQL.
 
-Hybrid Modeling: Developed an ensemble model combining Deep LSTM, ARIMA, and Linear Regression to analyze 5+ years of market data.
+Payment Service: Interfaces with Razorpay for secure payment processing.
 
-Optimization: Achieved 85% directional accuracy, outperforming standalone baselines by 12% through hyperparameter tuning and Adam optimization.
+User Service: Manages user profiles and account details.
 
-Feature Engineering: Engineered a multivariate dataset using 10+ technical indicators (RSI, Moving Averages) and normalized data via MinMaxScaler for model stability.
+🚦 Getting Started
+Prerequisites
+Java 17 or higher
 
-**
-💻 Technical Skills
+Maven 3.6+
 
-Languages: Java (Core & Advanced), Python, SQL (MySQL).
+MySQL and MongoDB instances (local or cloud)
 
-Backend: Spring Boot, Spring MVC, Spring Data JPA, Hibernate, Microservices. 
+Razorpay API Keys
 
-Frontend: React.js, JavaScript (ES6+), HTML5, CSS3.
+Installation
+Clone the repository:
 
-Databases: MySQL (Relational), MongoDB (NoSQL).
+Bash
+git clone https://github.com/santhosh7997/Shopkart.git
+cd Shopkart
+Configure Databases:
+Update the application.properties or application.yml files in each service with your database credentials and API keys.
 
-Cloud & DevOps: Git, GitHub, Maven, Postman, NPTEL Cloud Computing.
+Build the project:
 
-**
-🧩 Problem Solving & Certifications
+Bash
+mvn clean install
+Run the application:
+Since this is a microservices project, start each service individually or use a Docker Compose file (if available).
 
-LeetCode Proficiency: Data Structures & Algorithms (DSA) problems focusing on optimal time/space complexity in Java.
+Bash
+mvn spring-boot:run
+🧪 API Testing
+Detailed API documentation can be explored using Postman. The project includes endpoints for:
 
-Cloud Computing: NPTEL Elite Certification – IIT Kharagpur (2024).
+POST /api/auth/login - Authenticate users.
 
-Internet of Things: NPTEL Elite Certification – IIT Kharagpur (2024).
+GET /api/products - Fetch product catalog.
 
-Cyber Security: 240-Hour Internship Completion – SkillDzire (2024).
+POST /api/orders - Place a new order.
 
-**
-🎓 Education
+🤝 Contributors
+Santhosh Kanne - Java Full Stack Developer
 
-B.Tech in Computer Science and Engineering
+Ramesh2135
 
-Annamacharya Institute of Technology & Sciences (2025)
-
-CGPA: 7.04/10
-
-**
-📫 Contact Me
-
-Email: santhos799750h@gmail.com
-
-Phone: +91 7093679440
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
